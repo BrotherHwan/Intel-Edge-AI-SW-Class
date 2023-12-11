@@ -5,7 +5,7 @@
 '''
  if(val==0)
     {
-      HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin); //LED ON
+      HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin); 
       HAL_Delay(200);
     }
     if(val==1)
